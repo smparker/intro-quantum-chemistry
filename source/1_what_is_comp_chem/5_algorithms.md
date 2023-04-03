@@ -19,7 +19,8 @@ To do that we use Big O notation.
 ### What is Big O notation? (required)
 Watch the following video introduction to algorithms
 
-https://www.youtube.com/watch?v=MyeV2_tGqvw
+:::{youtube} MyeV2_tGqvw
+:::
 
 Big O tells us about the asymptotic scaling of an algorithm,
 meaning how does the amount of time/memory/disk/etc. the algorithm

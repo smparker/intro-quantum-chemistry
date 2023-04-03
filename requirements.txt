@@ -1,5 +1,6 @@
-sphinx==5.3.0
 docutils==0.16
+sphinx==5.3.0
+myst-parser
 sphinx_theme
 sphinxcontrib-bibtex
-myst-parser
+sphinxcontrib-youtube
