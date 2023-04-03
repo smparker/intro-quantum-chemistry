@@ -26,14 +26,13 @@ For TDDFT calculations, hybrid functionals are really necessary to get
 quality results. As an example here, we will select the PBE0 functional
 for our excited-state calculations and an m4 grid.
 
-[image]
-
 ## Setting up the excited state parameters
 
 From the Start Job tab in TmoleX, choose "Spectra & Excited States" and
 "UV/Vis and CD(vertical excitations)"
 
-[image]
+:::{image} /_static/uvvis.gif
+:::
 
 For absorption spectra, we want singlet excitations and we want to use the
 flavor of TDDFT called the Random Phase Approximation (RPA). Select the "Singlet"
@@ -43,7 +42,8 @@ it doesn't actually change any results, just what unit it's printed out in).
 Finally, specify the number of excitations you want to find. This will be
 determined by the problem.
 
-[image]
+:::{image} /_static/excited_state_settings.gif
+:::
 
 Once the excited state settings are chosen, you can run the calculation.
 
@@ -55,7 +55,8 @@ spectrum page, you can see the individual transitions as vertical "sticks" and t
 broadened spectrum as a line. You can also adjust the unit used to plot,
 the width of the broadening.
 
-[image]
+:::{image} /_static/spectrum.gif
+:::
 
 For a more detailed view of each excitation, open the output file, and
 scroll to a section that looks like

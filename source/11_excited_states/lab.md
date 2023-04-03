@@ -3,7 +3,7 @@
 So far, this course has been concerned with properties of the electronic ground
 state. When molecules are electronically excited, their physical and chemical
 properties often change dramatically. Molecules often can be electronically
-excited by electromagnetic radiation in the visible (VIS) or ultraviolett (UV)
+excited by electromagnetic radiation in the visible (VIS) or ultraviolet (UV)
 spectrum{cite}`klessinger1995excited`. According to the Franck-Condon principle, electronic excitations
 are vertical, i.e., there is no nuclear relaxation during an electronic
 transition. In the simplest case, the absorption maximum in a UV-VIS spectrum is
@@ -50,13 +50,21 @@ In this lab, you will study the UV-vis spectra of
   - oxybenzone, a benzophenone derivative with IUPAC name (2-Hydroxy-4-methoxyphenyl)-
 phenylmethanone
   - 2-ethylhexyl p-methoxycinnamate
-  
-  [ image ]
-  
+
+:::{figure} /_static/uvvis-oxybenzone-cinnamate.jpg
+:alt: Oxybenzone and 2-ethylhexyl p-methoxycinnamate (cinnamate)
+
+Oxybenzone and 2-ethylhexyl p-methoxycinnamate (cinnamate)
+:::
+
 The experimental UV-vis spectra are shown below.{cite}`Walters1997JCE` The oxybenzone spectrum
 has peaks at 326 nm and 288 nm, while p-methoxycinnamate has a peak at 310 nm.
 
-[ image ]
+:::{figure} /_static/uvvis-oxybenzone-cinnamate-abs.jpg
+:alt: UV-Vis absorption spectra of oxybenzone and cinnamate
+
+UV-Vis absorption spectra of oxybenzone and cinnamate
+:::
 
 1. Optimize the structure of each molecule using TPSS-D3(BJ)/def2-SVP/RI
 2. Perform a vertical excitation energy calculation using PBE0-D3(BJ)/SVP.

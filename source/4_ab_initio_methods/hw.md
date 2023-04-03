@@ -82,38 +82,39 @@ sheet](https://docs.google.com/spreadsheets/d/19ZhOnApWJX8hkrTWirDfafpnqsqeRLS_T
 These total energies must be submitted by Friday September 23, before the assignment is due.
 
 The geometries for each molecule in the reaction set are helpfully
-provided by the authors of Ref. {cite}`Goerigk2017PCCP` on their
+provided by the authors of Ref. {cite:label}`Goerigk2017PCCP` on their
 [website](https://www.chemie.uni-bonn.de/pctc/mulliken-center/software/GMTKN/gmtkn55).
 The geometries have been placed on markov in the folder `~smp201/darc`
 for easy use.
 
-  ----------- ----------------- -------------------
-   **Group**    **Molecule**     **geometry name**
-       1           ethene           ethene.xyz
-       1           ethine           ethine.xyz
-       1          butadiene        butadiene.xyz
-       2       cyclopentadiene      cpdiene.xyz
-       2       cyclohexadiene       chdiene.xyz
-       2           furane           furane.xyz
-       3           malein           malein.xyz
-       3          maleinNH         maleinnh.xyz
-       3             P1               p1.xyz
-       4             P2               p2.xyz
-       4             P3               p3.xyz
-       4             P4               p4.xyz
-       5             P5               p5.xyz
-       5             P6               p6.xyz
-       5             P7               p7.xyz
-       6             P7X              p7x.xyz
-       6             P8               p8.xyz
-       6             P8X              p8x.xyz
-       7             P9               p9.xyz
-       7             P9X              p9x.xyz
-       8             P10              p10.xyz
-       8             P10X             p10x.xyz
-  ----------- ----------------- -------------------
-  
-  : Team Assignments
+:::{table} Team Assignments
+:align: center
+
+|   Group   |    Molecule     |     geometry name
+|-----------|-----------------|-------------------
+|     1     |     ethene      |    ethene.xyz
+|     1     |     ethine      |    ethine.xyz
+|     1     |    butadiene    |   butadiene.xyz
+|     2     | cyclopentadiene |    cpdiene.xyz
+|     2     | cyclohexadiene  |    chdiene.xyz
+|     2     |     furane      |    furane.xyz
+|     3     |     malein      |    malein.xyz
+|     3     |    maleinNH     |   maleinnh.xyz
+|     3     |       P1        |      p1.xyz
+|     4     |       P2        |      p2.xyz
+|     4     |       P3        |      p3.xyz
+|     4     |       P4        |      p4.xyz
+|     5     |       P5        |      p5.xyz
+|     5     |       P6        |      p6.xyz
+|     5     |       P7        |      p7.xyz
+|     6     |       P7X       |      p7x.xyz
+|     6     |       P8        |      p8.xyz
+|     6     |       P8X       |      p8x.xyz
+|     7     |       P9        |      p9.xyz
+|     7     |       P9X       |      p9x.xyz
+|     8     |       P10       |      p10.xyz
+|     8     |       P10X      |      p10x.xyz
+:::
 
 So for example, you can copy the structure for furane into your own
 directory by running
@@ -127,30 +128,36 @@ The reaction products are all labeled by P. For reactions 7, 8, 9, and
 different Diels-Alder products. The reactions are summarized by the
 following figure:{cite}`Johnson2008JCP`
 
-!image!
+:::{figure} /_static/darc.jpg
+:alt: list of reactions in DARC set
+
+List of reactions in the DARC set
+:::
 
 The reference reaction energies were originally computed using
 complete basis set (CBS) CCSD(T) calculations and are
 
-  ---- ---------- ----------- ------
-  \#   dienophile diene       product              
-  1    ethene     butadiene   P1
-  2    ethine     butadiene   P2
-  3    ethene     cpdiene     P3
-  4    ethine     cpdiene     P4
-  5    ethene     chdiene     P5
-  6    ethine     chdiene     P6
-  7    furane     malein      P7
-  8    furane     malein      P7X
-  9    furane     maleinNH    P8
-  10   furane     maleinNH    P8X
-  11   cpdiene    malein      P9
-  12   cpdiene    malein      P9X
-  13   cpdiene    maleinNH    P10
-  14   cpdiene    maleinNH    P10X
-  ---- ---------- ----------- ------
-  
-: Enumeration of reactions
+:::{table} Enumerated DARC reactions
+:align: center
+
+
+ | \#  | dienophile| diene      | product |
+ |-----|-----------|------------|---------|
+ | 1   | ethene    | butadiene  | P1      |
+ | 2   | ethine    | butadiene  | P2      |
+ | 3   | ethene    | cpdiene    | P3      |
+ | 4   | ethine    | cpdiene    | P4      |
+ | 5   | ethene    | chdiene    | P5      |
+ | 6   | ethine    | chdiene    | P6      |
+ | 7   | furane    | malein     | P7      |
+ | 8   | furane    | malein     | P7X     |
+ | 9   | furane    | maleinNH   | P8      |
+ | 10  | furane    | maleinNH   | P8X     |
+ | 11  | cpdiene   | malein     | P9      |
+ | 12  | cpdiene   | malein     | P9X     |
+ | 13  | cpdiene   | maleinNH   | P10     |
+ | 14  | cpdiene   | maleinNH   | P10X    |
+:::
 
 ### Calculations
 
