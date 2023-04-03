@@ -3,13 +3,20 @@
 In this short tutorial, you will be very briefly introduced to the tool CREST, which we
 use to search for potentially important conformers and rotamers of molecules.
 
-**IMPORTANT:** Always run CREST calculations on a compute node.
+:::{important}
+
+
+Always run CREST calculations on a compute node.
+:::
 
 ## Definitions
 
-- **conformer**: a conformational isomer of a molecule, meaning the physical
+Conformer
+: a conformational isomer of a molecule, meaning the physical
   arrangement of atoms may change, but the bonding topology will not
-- **rotamer**: a conformer that can be transformed into the original
+
+Rotamer
+: a conformer that can be transformed into the original
   structure if rotations around (nearly) free rotors are performed.
   For example, if two conformers differ only through the rotation of
   a methyl group, then they are probably rotamers.
