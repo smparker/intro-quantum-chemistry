@@ -19,6 +19,9 @@ By the end of this module, you will be able to
   - CC energies
   - CC properties
 
-**Note:** there is a lot to cover in this chapter. Wavefunction methods and
+:::{note}
+
+There is a lot to cover in this chapter. Wavefunction methods and
 density functional methods could each be their own course! We will focus on the
 most important aspects and skip a lot of detail.
+:::

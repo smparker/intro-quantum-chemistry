@@ -171,15 +171,21 @@ following method/basis combinations
 5.  RIRPA\@TPSS/def2-QZVP/RI
 6.  RIMP2/def2-TZVP/RI
 
-**Important:** do not optimize the geometries! We want to compare the
+:::{important}
+
+Do not optimize the geometries! We want to compare the
 electronic energy at a specific geometry for all methods, so optimizing
 the geometry will skew the results.
+:::
 
-**Important:** when reporting calculation times for RIRPA and RIMP2, you
+:::{important}
+
+When reporting calculation times for RIRPA and RIMP2, you
 should include the calculation time of the DFT (RIRPA) and HF (RIMP2) step.
 TmoleX does not show this by default, but you can find it by navigating
 to the directory where the calculation was run and opening the `ridft.out`
 file.
+:::
 
 In addition, you will use the following methods for analysis, but the
 data will be provided for you

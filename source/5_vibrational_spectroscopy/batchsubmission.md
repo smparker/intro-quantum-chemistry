@@ -90,22 +90,26 @@ then the script will automatically generate a slurm submission file
 automatically copy the input files to a temporary directory (which is
 much faster) and then copy back when the calculation is done.
 
-WARNING: The quotation marks for the command are important! For example,
+:::{warning}
+The quotation marks for the command are important! For example,
 if you run
 
     turbomole_submit -C jobex > jobex.out
 
 then the slurm file that gets made only runs the command `jobex` and it
-won\'t capture the output. This means you could run your calculation and
+won't capture the output. This means you could run your calculation and
 then lose the results! If this happens, not all hope is lost though,
 there is usually a slurm output file that will contain ALL of the output
 from the entire job, not just the turbomole output.
+:::
 
-WARNING: Do not use the `nohup ... &` pattern in a submission script.
+:::{warning}
+Do not use the `nohup ... &` pattern in a submission script.
 The `&` means the command will run in the background and the submission
 script will move on and then finish running through the rest of the
 script. Once that happens, the job is killed, no matter what status it
 is!
+:::
 
 In this course, you won\'t need to update most of the options, but I do
 want to mention two that are important. The `-t` option will let you
