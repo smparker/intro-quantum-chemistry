@@ -9,7 +9,12 @@ a disubstituted cyclohexene. This reaction
 can produce two unique products with either "ortho" or "meta" substitution
 of the cyclohexene.{cite}`Kahn1986JACS`
 
-[image]
+:::{figure} /_static/diels-alder-reactions.png
+:alt: Diels-Alder product with "ortho" and with "meta" substituted products.
+
+Comparison of Diels-Alder reactions that produce "ortho" and "meta"
+substitued cyclohexene.
+:::
 
 You will use density functional theory (DFT) calculations to predict which disubstituted product
 is preferred and what the degree of selectivity is.
