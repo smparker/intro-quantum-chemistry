@@ -16,7 +16,12 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinxcontrib.bibtex', 'sphinxcontrib.youtube']
+extensions = ['myst_parser', 'sphinxcontrib.bibtex', 'sphinxcontrib.youtube', 'sphinx.ext.mathjax' ]
+
+mathjax3_config = {
+  "loader": { "load": ['[tex]/mhchem']},
+  "tex": { "packages": {'[+]': ['mhchem']}}
+}
 
 templates_path = ['_templates']
 exclude_patterns = ['build', 'Thumbs.db', '.DS_Store']

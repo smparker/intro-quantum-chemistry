@@ -3,21 +3,17 @@
 ## Introduction
 
 In this lab, we will investigate the structure and infrared vibrational
-spectrum of hydrated hydronium ions in the gas phase, H~3~O^+^![LaTeX:
-\\cdot](https://canvas.case.edu/equation_images/%255Ccdot "\cdot"){.equation_image}(H~2~O)~n~,
-for n=1,2,3. Hydrated hydronium ions are the most fundamental models one
+spectrum of hydrated hydronium ions in the gas phase, $\ce{H3O+.(H2O)_n}$
+for $n$=1,2,3. Hydrated hydronium ions are the most fundamental models one
 can make about acids in solution and are also important species in the
 ionosphere.{cite}`Yeh1989JCP`
 
 Starting with the simplest hydrated hydronium cluster possible,
-H~5~O~2~^+^, there are already interesting fundamental questions. For
-instance, is the most stable structure of H~5~O~2~^+^ one in which a
-hydronium atom is complexed with a water molecule, H~3~O^+^![LaTeX:
-\\cdot](https://canvas.case.edu/equation_images/%255Ccdot "\cdot"){.equation_image}H~2~O,
+$\ce{H5O2+}$, there are already interesting fundamental questions. For
+instance, is the most stable structure of $\ce{H5O2^+}$ one in which a
+hydronium atom is complexed with a water molecule, $\ce{H3O+ . H2O}$,
 or one in which a proton is shared between two water molecules,
-H~2~O![LaTeX:
-\\cdot](https://canvas.case.edu/equation_images/%255Ccdot "\cdot"){.equation_image}H^+^![LaTeX:
-\\cdot](https://canvas.case.edu/equation_images/%255Ccdot "\cdot"){.equation_image}OH~2~.
+$\ce{H2O.H^+.OH2}$?
 This question essentially boils down to, does it make sense to think of
 the hydronium ion as a species?
 
@@ -33,11 +29,9 @@ the hydronium ion as a species?
 Predict the structure and vibrational IR spectrum of the following
 species
 
--   H~2~O
--   H~3~O^+^
--   H~3~O^+^![LaTeX:
-    \\cdot](https://canvas.case.edu/equation_images/%255Ccdot "\cdot"){.equation_image}(H~2~O)~n~,
-    for n=1,2,3
+-   $\ce{H2O}$
+-   $\ce{H3O+}$
+-   $\ce{H3O+ . (H2O)_n}$ for $n$=1,2,3
 
 ### Procedure and Discussion Questions
 
@@ -58,7 +52,7 @@ species
     modes that correspond to stretches. Classify the modes as symmetric
     or asymmetric. By visualizing and comparing their frequencies with
     the stretch frequencies for water and hydronium, further classify
-    the modes as belonging to H~2~O or H~3~O^+^. **Organize all of the**
+    the modes as belonging to $\ce{H2O}$ or $\ce{H3O+}. **Organize all of the**
     **results in a table. Report vibrational frequencies in wavenumber**
     **(cm^-1^).**
 5.  Using your computed results, assign vibrational modes to each of the
