@@ -65,9 +65,25 @@ species
     **for both the unscaled and the scaled frequencies. This should be a**
     **numerical estimate with a unit.** 
 
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
-  ![Vibrational spectrum of H5O2+](https://canvas.case.edu/courses/32761/files/5240145/preview)   ![Vibrational spectrum of H7O3+](https://canvas.case.edu/courses/32761/files/5240146/preview)   ![Vibrational spectrum of H9O4+](https://canvas.case.edu/courses/32761/files/5240222/preview)
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+::::{subfigure} ABC
+:name: hydronium vibrational spectra
+:gap: 8px
+:layout-sm: A|B|C
+
+:::{image} /_static/hydronium_vib_n1.png
+:alt: n=1
+:::
+
+:::{image} /_static/hydronium_vib_n2.png
+:alt: n=2
+:::
+
+:::{image} /_static/hydronium_vib_n3.png
+:alt: n=3
+:::
+
+Spectra of hydronium ions with $n$=1,2,3
+::::
 
 **Does the hydronium exist in solution? Argue using your results and the**
 **experimental spectra.**

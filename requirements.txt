@@ -4,3 +4,4 @@ myst-parser
 sphinx_theme
 sphinxcontrib-bibtex
 sphinxcontrib-youtube
+sphinx-subfigure
