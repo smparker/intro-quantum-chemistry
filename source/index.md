@@ -4,6 +4,7 @@
 :maxdepth: 1
 :caption: Contents
 
+what_is_this/index
 1_what_is_comp_chem/index
 2_chemical_structure/index
 3_thermochem_kinetics/index
