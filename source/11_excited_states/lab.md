@@ -33,7 +33,7 @@ excited state irreducible representations of the molecular point group contain
 the dipole representation. The frequency integral of an absorption band is
 proportional to the oscillator strength
 
-$$f_{0n}\frac{2}{3}(E_n−E_0)|\mu_{0n}|^2$$
+$$f_{0n} = \frac{2}{3}(E_n−E_0)|\mu_{0n}|^2$$
 
 Time-Dependent Response Theory Molecular UV-VIS spectra can be efficiently
 computed using time-dependent response theory{cite}`Furche2005CP`. The conceptual idea is to
