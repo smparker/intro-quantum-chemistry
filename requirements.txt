@@ -1,7 +1,6 @@
 docutils==0.16
 sphinx==5.3.0
 myst-parser
-sphinx_theme
 sphinxcontrib-bibtex
 sphinxcontrib-youtube
 sphinx-subfigure

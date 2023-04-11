@@ -1,5 +1,3 @@
-import sphinx_theme
-
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -48,5 +46,5 @@ myst_update_mathjax = False
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'stanford_theme'
-html_theme_path = [sphinx_theme.get_html_theme_path()]
+html_theme_path = [ "_themes/sphinx_theme" ]
 html_static_path = ['_static']
