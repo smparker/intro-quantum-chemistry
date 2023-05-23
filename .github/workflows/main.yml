@@ -1,9 +1,8 @@
 on: push
 
 jobs:
-  # Build job
   build:
-      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
@@ -19,7 +18,6 @@ jobs:
         with:
           path: "_build/html"
 
-  # Deploy job
   deploy:
     # Add a dependency to the build job
     needs: build
@@ -40,4 +38,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
-
