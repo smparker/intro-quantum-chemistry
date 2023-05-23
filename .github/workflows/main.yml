@@ -13,7 +13,7 @@ jobs:
         run: |
           sphinx-build doc _build
       - name: Deploy
-        uses: actions/upload-pages-artifact
+        uses: actions/upload-pages-artifact@v1
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         with:
           path: "_build/html"
