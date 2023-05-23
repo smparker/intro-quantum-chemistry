@@ -16,7 +16,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         with:
-          path: "_build/html"
+          path: "_build/"
 
   deploy:
     # Add a dependency to the build job
